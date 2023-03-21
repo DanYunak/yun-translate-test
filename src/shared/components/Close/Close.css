@@ -1,0 +1,29 @@
+.close__icon {
+    font-size: 150%;
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .close__icon:hover {
+        opacity: .4;
+        transition: opacity .5s;
+    }
+}
+
+@media (max-width: 1445px) {
+    .close__icon {
+        margin-top: -2px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .close__icon {
+        margin-top: -4px;
+    }
+}
+
+@media (max-width: 865px) {
+    .close__icon {
+        margin: -20px 15px 0 0;
+    }
+}

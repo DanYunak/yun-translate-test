@@ -1,0 +1,1 @@
+export { SavedTranslations } from './components/SavedTranslations/SavedTranslations'

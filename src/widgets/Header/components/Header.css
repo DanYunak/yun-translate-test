@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    position: absolute;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    top: -80%;
+}
+
+@media (max-width: 690px) {
+    .header {
+        top: -60%;
+    }
+}

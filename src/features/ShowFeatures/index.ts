@@ -1,0 +1,1 @@
+export { ShowFeatures } from './components/ShowFeatures'

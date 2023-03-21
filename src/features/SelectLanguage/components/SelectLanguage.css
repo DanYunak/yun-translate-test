@@ -1,0 +1,13 @@
+.language__change {
+    margin-bottom: 50px;
+    margin-top: -50px;
+    display: flex;
+    width: 100%;
+}
+
+@media (max-width: 690px) {
+    .language__change {
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+}

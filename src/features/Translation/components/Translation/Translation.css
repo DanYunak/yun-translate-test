@@ -1,0 +1,91 @@
+.translation {
+    margin-top: 20px;
+    border: 1px solid #c0c0c0;
+    padding: 15px 15px 0px 15px;
+    width: 90%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.translation__languages {
+    border: 1px solid black;
+    padding: 5px 12px;
+    border-radius: 50px;
+    max-width: 100px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.translation__pair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.translation__text {
+    font-size: 18px;
+}
+
+.translation__text_translated {
+    margin-top: 3px;
+    color: #5a5a5a;
+}
+
+.translation__text_translated_dark {
+    color: #adafb0;
+}
+
+.favorite__translations {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -75%;
+    transform: translateY(50%);
+    font-size: 120%;
+}
+
+@media (min-width: 992px) {
+
+    .save:hover,
+    .remove__saved:hover {
+        color: #d56e0c;
+        transition: color .3s;
+        cursor: pointer;
+    }
+}
+
+.country__flag {
+    margin-right: 5px;
+}
+
+@media (max-width: 1240px) {
+    .translation {
+        width: 85%;
+    }
+}
+
+.delete__translation {
+    display: inline-flex;
+    justify-content: right;
+    position: relative;
+    bottom: 15%;
+    transform: translateY(10%);
+}
+
+.delete__translation_icons svg {
+    transition: fill 0.3s;
+    cursor: pointer;
+}
+
+.delete__translation_icons:hover svg {
+    fill: #fff
+}

@@ -1,0 +1,1 @@
+export { Translation } from './components/Translation/Translation'

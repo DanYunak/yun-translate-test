@@ -1,0 +1,37 @@
+.theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.theme:hover {
+    transition: background-color .7s;
+}
+
+.change__theme span {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.change__theme_settings {
+    position: relative;
+    top: 200%;
+    left: -100%;
+    transform: translate(25%, -50%);
+}
+
+.theme__dark:hover {
+    background-color: #c0c0c0;
+}
+
+.theme__light {
+    color: #fff;
+}
+
+.theme__light:hover {
+    background-color: #2B2C2F;
+}

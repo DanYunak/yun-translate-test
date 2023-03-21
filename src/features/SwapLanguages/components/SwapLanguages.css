@@ -1,0 +1,29 @@
+.swap__languages {
+    position: absolute;
+    top: -15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swap__languages_dark {
+    color: white;
+}
+
+.swap__languages svg {
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .swap__languages svg:hover {
+        opacity: .5;
+        transition: opacity .6s;
+    }
+}
+
+@media (max-width: 690px) {
+    .swap__languages {
+        top: 33%;
+    }
+}

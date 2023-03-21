@@ -1,0 +1,1 @@
+export { TranslateInput } from './components/TranslateInput'

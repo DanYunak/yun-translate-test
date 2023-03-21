@@ -1,0 +1,1 @@
+export { TranslateOutput } from './components/TranslateOutput'

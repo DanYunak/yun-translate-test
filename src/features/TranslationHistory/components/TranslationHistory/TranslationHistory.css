@@ -1,0 +1,133 @@
+.translation__history_wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    height: 100%;
+}
+
+.translation__history_title {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 2%;
+    margin-bottom: -5%;
+}
+
+.translation__history {
+    width: 400px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 1445px) {
+
+    .translation__history,
+    .saved__translations {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1240px) {
+
+    .translation__history,
+    .saved__translations {
+        width: 300px;
+    }
+}
+
+@media (max-width: 865px) {
+
+    .translation__history,
+    .saved__translations {
+        width: 100%;
+        transition: background-color .7s;
+        color: #000;
+    }
+
+    .saved__translations_dark {
+        color: #fff;
+    }
+
+    .translation__history_wrapper,
+    .saved__translations_wrapper {
+        width: 100%;
+        transform: translateY(0);
+        top: 0;
+    }
+
+    .translation__history_title,
+    .saved__translations_title {
+        margin-bottom: 0;
+    }
+}
+
+.translation__history_dark {
+    background-color: #242424;
+    transition: background-color .7s;
+    color: #fff;
+}
+
+.translation__history_light {
+    border: 1px solid #727272;
+    background-color: #fff;
+    color: black;
+}
+
+.close__translation_history {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    right: -50px;
+    top: 5px;
+}
+
+.translation__history_empty {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.translation__history_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 1240px) {
+    .close__translation_history, .close__saved_translations {
+        right: -30px;
+        top: 8px;
+    }
+}
+
+@media (max-width: 865px) {
+    .close__translation_history, .close__saved_translations {
+        right: -100px;
+        top: 10px;
+    }
+}
+
+@media (max-width: 435px) {
+    .close__translation_history, .close__saved_translations {
+        right: -70px;
+    }
+}
+
+@media (max-width: 355px) {
+    .close__translation_history, .close__saved_translations {
+        right: -50px;
+    }
+}

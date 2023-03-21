@@ -1,0 +1,25 @@
+.show__features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show__saved_translations {
+    margin-left: 50%;
+}
+
+.show__settings {
+    margin-left: 25%;
+}
+
+@media (max-width: 950px) {
+    .show__saved_translations {
+        margin-left: 25%;
+    }
+}
+
+@media (max-width: 690px) {
+    .show__features {
+        margin-top: -10%;
+    }
+}

@@ -1,0 +1,22 @@
+.translate__text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.translation__field {
+    width: 400px;
+    font-size: 25px;
+}
+
+@media (max-width: 1266px) {
+    .translation__field {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1085px) {
+    .translation__field {
+        width: 300px;
+    }
+}
